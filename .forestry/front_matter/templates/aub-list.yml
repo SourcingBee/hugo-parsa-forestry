@@ -1,4 +1,52 @@
 ---
 label: AUB List
 hide_body: true
-fields: []
+fields:
+- name: timestamp
+  type: datetime
+  label: Timestamp
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
+- name: pnr
+  type: text
+  config:
+    required: false
+  label: PNR
+- name: from
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: From
+- name: to
+  type: datetime
+  label: to
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: file
+  type: file
+  config:
+    maxSize: 64
+  label: File
+- name: infobox
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Infobox
