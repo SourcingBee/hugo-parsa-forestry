@@ -1,6 +1,7 @@
 ---
 label: AUB
 hide_body: true
+display_field: baseURL
 fields:
 - type: text
   name: baseURL
