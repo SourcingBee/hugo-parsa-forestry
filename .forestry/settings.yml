@@ -5,7 +5,7 @@ admin_path: mb
 webhook_url: 
 sections:
 - type: document
-  path: content/data/*
+  path: content/aub/*
   label: AUB List
 - type: directory
   path: content
