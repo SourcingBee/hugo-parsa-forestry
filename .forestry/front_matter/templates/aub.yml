@@ -150,3 +150,5 @@ fields:
     - type: text
       name: weight
       label: weight
+pages:
+- config.yaml
