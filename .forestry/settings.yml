@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data
   label: AUB List
-  match: "**/*"
 - type: directory
   path: content
   label: Post
