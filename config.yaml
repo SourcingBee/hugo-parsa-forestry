@@ -39,14 +39,14 @@ params:
     - link: plugins/search/fuse.min.js
     - link: plugins/search/mark.js
     - link: plugins/search/search.js
-  logo: images/logo.png
+  logo: "/images/logo-1.png"
   home: Home
   layout: "1"
   description: This is meta description
   preloader: true
   search: true
   author: Themefisher
-  author_image: images/banner-img.png
+  author_image: "/images/michael.png"
   bio: I’m a Freelance Interactive Art Director based in France. Focusing across branding
     and identity, digital and print.
   mobile: "+90 000 333 22"
