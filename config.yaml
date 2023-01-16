@@ -71,7 +71,7 @@ menu:
   main:
   - name: AUB List
     URL: aublist
-    weight: ''
+    weight: "1"
   - name: About
     URL: about
     weight: "2"
